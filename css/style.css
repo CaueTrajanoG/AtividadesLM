@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 *{
     color: darkslategrey;
     font-family: Arial, sans-serif;
@@ -10,6 +12,7 @@ h1{
 h2{
     font-size: 24px;
     background-color: lightskyblue;
+    border-radius: 5px;
 }
 .text-center{
     text-align: center;
@@ -28,7 +31,7 @@ a:hover{
     text-decoration: underline;
 }
 h1 a, h1 a:visited{
-   color: white; 
+    color: white; 
 }
 h2 a:visited{
     color: lightskyblue;
@@ -39,4 +42,14 @@ h1 a:hover, h2 a:hover{
 .text-center{
     font-style: italic;
     text-align: center;
+}
+#person{
+    font-family: 'Audiowide', cursive;
+    font-style: normal; 
+}
+p a{
+    color: darkblue;
+}
+.iconify-inline{
+    font-size: 1rem;
 }
