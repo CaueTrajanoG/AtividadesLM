@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*Style para impressao*/
+*{
+   color: black;
+    font-family:Times, serif;
+}
+h1 a{
+    opacity: 0;
+}
+#person{
+    text-align: left;
+}
+h2{
+    background-color: unset;
+}
+h2 a{
+    color: white;
+    opacity: 0;
+}
+.topo{
+    opacity: 0;
+}

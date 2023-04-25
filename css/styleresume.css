@@ -1,12 +1,18 @@
 .btn-return{
     font-size: 1.3rem;
     border: none;
+    color: darkblue;
 }
 .btn-return:hover{
     color: white;
     background-color: darkblue;
     text-decoration: none;
+    cursor: pointer;
 }
-.btn-return:active{
-    background-color: red;
+#social{
+    display: flex;
+    justify-content: center;  
+}
+#social a{
+    margin: 0px 3px;    
 }
