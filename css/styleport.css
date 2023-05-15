@@ -161,13 +161,15 @@
     height: 250px;
     align-items: baseline;
   }
-
+  footer #section-lista{
+    margin-left: 1rem;
+  }
+  
   footer .social ul{
     list-style: none;
     display: flex;    
-    margin-left: 6.7rem;
-    
   }
+
   footer .social li{
     border-style: solid;
     border-color: #777;
